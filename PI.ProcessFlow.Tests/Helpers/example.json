@@ -1,0 +1,72 @@
+{
+  "shapeType": "Entry",
+  "id": 0,
+  "description": "End",
+  "log": 0,
+  "processed": false,
+  "processCount": 0,
+  "nextShape": {
+    "$type": "UnitTest.Helpers.DecisionMultiplier, UnitTest",
+    "shapeType": "Decision",
+    "id": 1,
+    "description": "DecisionMultiplier",
+    "log": 0,
+    "processed": false,
+    "processCount": 0,
+    "nextShape": null,
+    "processName": null,
+    "decideName": null,
+    "paths": [
+      {
+        "value": 25,
+        "selected": false,
+        "nextShapeId": 0,
+        "nextShape": {
+          "$type": "UnitTest.Helpers.OperationMultiplier, UnitTest",
+          "shapeType": "Operation",
+          "id": 2,
+          "description": "OperationMultiplier",
+          "log": 0,
+          "processed": false,
+          "processCount": 0,
+          "nextShape": {
+            "$type": "PI.DecisionTree.Shapes.Terminator, PI.DecisionTree",
+            "shapeType": "Terminator",
+            "id": 0,
+            "description": "End",
+            "log": 0,
+            "processed": false,
+            "processCount": 0,
+            "nextShape": null
+          },
+          "processName": null
+        }
+      },
+      {
+        "value": 75,
+        "selected": false,
+        "nextShapeId": 0,
+        "nextShape": {
+          "$type": "UnitTest.Helpers.OperationAdder, UnitTest",
+          "shapeType": "Operation",
+          "id": 3,
+          "description": "OperationAdder",
+          "log": 0,
+          "processed": false,
+          "processCount": 0,
+          "nextShape": {
+            "$type": "PI.DecisionTree.Shapes.Terminator, PI.DecisionTree",
+            "shapeType": "Terminator",
+            "id": 0,
+            "description": "End",
+            "log": 0,
+            "processed": false,
+            "processCount": 0,
+            "nextShape": null
+          },
+          "processName": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <Copyright>Copyright ©  2018 Pi &amp; Mash Limited</Copyright>
+
+    <Company>Pi &amp; Mash Limited</Company>
+
+    <Authors>Pete Cleary</Authors>
+
+    <Product>Process Flow Testing Library</Product>
+
+    <Description>Testing Library for PI.Core.ProcessFlow</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PI.ProcessFlow\PI.ProcessFlow.csproj" />
+  </ItemGroup>
+
+</Project>

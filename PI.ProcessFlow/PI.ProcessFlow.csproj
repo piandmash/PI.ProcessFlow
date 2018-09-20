@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;netcoreapp2.0;netcoreapp1.1;net45;netstandard2.0</TargetFrameworks>
+    <Company>Pi &amp; Mash Limited</Company>
+    <Authors>Pete Cleary</Authors>
+    <Product>Process Flow Library</Product>
+    <Description>A library providing a simple method for managing unique code paths, simlar to following the path in a flow diagram.</Description>
+    <Copyright>Copyright ©  2018 Pi &amp; Mash Limited</Copyright>
+    <AssemblyName>PI.ProcessFlow</AssemblyName>
+    <RootNamespace>PI.ProcessFlow</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/piandmash/PI.ProcessFlow/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/piandmash/PI.ProcessFlow</PackageProjectUrl>
+    <PackageIconUrl>https://www.piandmash.com/pi_logo.png</PackageIconUrl>
+    <PackageTags>process flow, processing, flow diagram, aspnetcore,</PackageTags>
+    <RepositoryUrl>https://github.com/piandmash/PI.ProcessFlow</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Package update</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
